@@ -1,0 +1,15 @@
+{
+  "n_colors": 5,
+  "sequences_lengths": [5,5,5,5,5],
+  "max_tokens": 40,
+  "game_type": "computer vs computer",
+  "strategy_position": "intelligent",
+  "strategy_color": "intelligent",
+  "computer_delay_seconds": 0,
+  "press_key_before_computer_moves": false,
+  "enable_colors_in_terminal": false,
+  "show_additional_token_sequence_without_indices": true,
+  "show_detailed_sequence_info": true,
+  "test_mode": true,
+  "n_tests": 100
+}

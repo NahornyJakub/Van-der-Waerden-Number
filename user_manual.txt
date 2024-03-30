@@ -1,0 +1,22 @@
+n_colors - liczba kolorów (liczba z przedziału 1-52) - kolory reprezentowane są kolejnymi literami A, B, ..., Z; w przypadku liczby kolorów większej niż 26, dodatkowe kolory to a, b, ..., z
+
+sequences_lengths - lista długości sewkencji wygrywających (dla gracza 1) dla kolejnych kolorów, długość listy powinna być zgodna z parameterm "n_colors" (liczby z przedziału 1-1000)
+
+max_tokens - maksymalna liczba tokenów na planszy, po jej przekroczeniu wygrywa gracz 2 (liczba z przedziału 1-100k)
+
+game_type - typ gry, dostępne typy: "computer vs computer", "human vs computer", "computer vs human"; z lewej strony gracz 1, z prawej gracz 2
+
+strategy_position - strategia gry komuptera w przypadku gdy jest graczem 1, dostępne: "intelligent", "random"
+
+strategy_color - strategia gry komuptera w przypadku gdy jest graczem 2, dostępne: "intelligent", "random"
+
+computer_delay_seconds - czas "myślenia" komputera przed wykonaniem ruchu (w sekundach)
+
+press_key_before_computer_moves - true/false; wymóg naciśnięcia przez użytkownika dowolnego przycisku przed każdym razem, gdy komputer wykonuje ruch
+
+enable_colors_in_terminal - true/false; włączenie kolorowych napisów z konsoli; opcja działa tylko dla systemu LINUX, 
+lub na bashowym terminalu w Windowsie; włączenie BARDZO zalecane dla lepszego efektu i czytelności
+
+show_additional_token_sequence_without_indices - true/false; wyświetlanie w terminalu sekwencji na planszy po każdej turze; zalecane zawsze mieć włączone na true
+
+show_detailed_sequence_info true - true/false; wyświetlanie informacji o najlepszych sekwencjach na planszy dla każdego koloru i ich indeksach; BARDZO zalecane true dla lepszego zrozumienia co dzieje się na planszy
